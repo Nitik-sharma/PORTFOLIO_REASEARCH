@@ -65,7 +65,7 @@ export const Home: React.FC = () => {
               to="/research"
               className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg"
             >
-              <button className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg">
+              <button >
                 {" "}
                 <span>View Research</span>
                 <ArrowRight className="w-4 h-4" />
