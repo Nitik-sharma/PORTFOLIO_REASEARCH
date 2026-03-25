@@ -4,6 +4,7 @@ import { ArrowRight, Download, ChevronDown } from "lucide-react";
 import { MathBlock } from "@/components/MathBlock";
 import { AnimatedContainer } from "@/components/AnimatedContainer";
 import { publications, researchAreas } from "@/data/content";
+import { Link } from "react-router-dom";
 
 export const Home: React.FC = () => {
   return (
@@ -60,10 +61,14 @@ export const Home: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto px-4">
-            <button className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg">
-              <span>View Research</span>
-              <ArrowRight className="w-4 h-4" />
-            </button>
+            <Link to="/research">
+              <button className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg">
+                {" "}
+                <span>View Research</span>
+                <ArrowRight className="w-4 h-4" />
+              </button>
+            </Link>
+
             <a
               href="https://www.w3.org/WAI/ER/tests/xhtml/testfiles/resources/pdf/dummy.pdf"
               target="_blank"
