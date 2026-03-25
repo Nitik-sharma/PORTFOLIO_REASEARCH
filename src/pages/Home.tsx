@@ -61,7 +61,10 @@ export const Home: React.FC = () => {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center w-full sm:w-auto px-4">
-            <Link to="/research">
+            <Link
+              to="/research"
+              className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg"
+            >
               <button className="bg-burgundy text-cream px-8 py-4 rounded-full font-medium flex items-center justify-center space-x-2 hover:bg-burgundy/90 transition-all shadow-lg">
                 {" "}
                 <span>View Research</span>
