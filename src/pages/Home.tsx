@@ -52,7 +52,7 @@ export const Home: React.FC = () => {
             Theoretical Physicist & Applied Mathematician
           </h2>
           <h1 className="text-5xl md:text-8xl font-serif font-bold mb-6 tracking-tighter break-words px-2">
-            Dr. Alaric <span className="text-burgundy">Aurelius</span>
+            Dr. Bhavna <span className="text-burgundy">Kaushik</span>
           </h1>
           <p className="text-lg md:text-xl text-charcoal/70 max-w-2xl mx-auto mb-10 font-light leading-relaxed">
             Exploring the intersection of differential geometry, stochastic
